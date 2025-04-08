@@ -1,0 +1,61 @@
+.balanceTile{
+    padding: 10px;
+    border-radius: 15px;
+    height: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    
+    background-color: var(--tile-color);
+    transition: box-shadow .4s;
+    color: var(--text-color);
+}
+
+.balanceTile:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.balanceTile > h1{
+    align-self: flex-start;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+
+.bank{
+    margin-top: 4%;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 600;
+    color: var(--selected-color);
+
+}
+
+.bank-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.account-number{
+    margin-top: 0.5%;
+    font-size: 11px;
+    font-weight: 300;
+    /* color: gray; */
+    /* color: rgb(180, 177, 177) */
+    color: var(--grey-color);
+}
+
+
+.bank-amount{
+    /* color: rgb(75, 75, 75); */
+    color: rgb(180, 177, 177);
+    color: var(--grey-color3);
+    font-weight: 500px;
+    margin-right: 10px;
+}
+

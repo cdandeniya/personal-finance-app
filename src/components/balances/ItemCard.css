@@ -1,0 +1,80 @@
+.item-card {
+    display: flex;
+    padding: 10px 40px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    border-radius: 15px;
+    background-color: var(--tile-color);
+    color:var(--text-color);
+    cursor: pointer;
+}
+
+.item-name{
+    font-size: 32px;
+    margin-bottom: 1px;
+    color:var(--text-color);
+}
+
+.account-card:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+
+}
+
+.drop-carrot {
+    opacity: 0;
+margin-top: 5%;
+transform: translateY(-2.0rem);
+color:var(--text-color);
+}
+
+/* .item-card:hover .drop-carrot {
+    color:var(--text-color);
+    transform: translateY(0rem);
+    animation: fadeInUp .5s ease 0s forwards;
+} */
+
+.left-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    color:var(--text-color);
+}
+
+.item-logo>img {
+    margin-top: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+
+.account-balance {
+    font-weight: 600;
+    margin-top: 10px;
+    margin-right: 12px;
+    color: var(--grey-color);
+}
+
+
+.dropDown {
+    border-radius: 15px;
+    margin-top: -4.5%;
+    background-color: var(--tile-color);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    opacity: 1;
+    transform: translateY(-.8rem);
+    animation: fadeInUp .5s ease 0s forwards;
+    color:var(--text-color);
+}
+
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translate(0);
+    }
+}

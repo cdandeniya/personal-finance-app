@@ -1,0 +1,85 @@
+.sidebarRight {
+position: relative;
+  background-color: var(--background-color);
+  bottom: 0px;
+  top: 0px;
+  min-width: 100px;
+  padding-right: 5apx;
+  z-index: 2;
+  margin-left: 15px;
+  margin-right: 25px;
+}
+
+.account {
+  margin-bottom: 20px;
+}
+.title {
+  font-weight: 600;
+}
+
+
+
+.sideBarRight-title{
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 55px;
+  /* padding-left: 5px; */
+  margin-bottom: 7%;
+}
+.transaction {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 13px;
+  padding-bottom: 10px;
+  /* border-bottom: 2px gray solid; */
+  /* margin-left: 5px; */
+}
+
+.transaction-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 15px;
+  gap: 5px
+}
+
+.price{
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 4%;
+    /* color: lightgreen;
+    color: rgb(238, 113, 113); */
+}
+
+
+
+
+
+.merchant-name{
+  font-weight: 600;
+  color: var(--text-color);
+  font-size: 13px;
+
+}
+
+.tran-name-container{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.date{
+  margin-top: 3.5%;
+  font-size: 11px;
+  font-weight: 300;
+  color: var(--grey-color)
+  /* color: gray; */
+  /* color: rgb(180, 177, 177); */
+}
+
+.transac-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

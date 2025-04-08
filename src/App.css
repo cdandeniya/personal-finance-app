@@ -1,0 +1,114 @@
+.App {
+ display: flex;
+ flex-direction: column;
+  justify-content: space-between;
+}
+
+body{
+
+  background-color: var(--background-color);
+  box-sizing: border-box;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--text-color);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+.sidebarRight{
+  position:fixed;
+  right:0;
+  top: 65px;
+  background-color: white;
+  width: 300px;
+  z-index: 400;
+
+}
+
+.sidebar-icons{
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+flex-direction: column;
+}
+
+.sidebar-icons img{
+  height: 24px;
+  margin-bottom: 4px;
+}
+
+.sidebar-icons:hover{
+background-color: rgb(234, 234, 234);
+}
+
+.sidebar-icons div{
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.content-container{
+  position: relative;
+  display: flex;
+  flex-direction: row;  
+  position: relative;
+  bottom: 0px;
+  /* justify-content: space-between; */
+  
+
+
+}
+
+.content{
+  border-radius: 15px;
+  /* background-color: #eff3f8; */
+  background-color: var(--inside-color);
+  min-width: 1085px;
+  /* overflow: auto; */
+ 
+}
+
+@media (min-height: 900px) {
+
+  .content{
+    border-radius: 15px;
+    background-color: var(--inside-color);
+    min-width: 1085px;
+    min-height: 825px;
+    /* overflow: auto; */
+  }
+}
