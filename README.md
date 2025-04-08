@@ -48,12 +48,6 @@ Coming soon...
 - Plaid API
 - Open AI API
 
-## Contributors
-
-- Chanul Dandeniya
-
-
-
 ## Run for yourself
 The app is still under production
 Please wait for updates for the future!
