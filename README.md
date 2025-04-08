@@ -1,9 +1,6 @@
 
 # Expex
 
-Pitch Deck: https://docs.google.com/presentation/d/1-NzeOY5hDtoE-cIWA-F5iEvQ3BO0mcTn3gaoYtMBfK4/edit?usp=sharing
-
-
 Expex is an application that allows users to seamlessslty monitor all their bank account, investment portfolios and digital assets from one secure location. 
 
 ## Features
